@@ -1,0 +1,6 @@
+# download YOLOv5 checkpoint-name:YOLOv5_checkpoint.pt
+# wget -O best.pt 'https://docs.google.com/uc?export=download&id='10BVSytYHb4tJFkWfeh9VCQd4Aw4XEAEw # YOLOV5s
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1sui4C3-JyCq1ctdInu0nCZydEIUbbJl7' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1sui4C3-JyCq1ctdInu0nCZydEIUbbJl7" -O YOLOv5_checkpoint.pt&& rm -rf /tmp/cookies.txt
+
+# download DETR checkpoint-name:DETR_checkpoint.pth
+# wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=15Ij9kf9W4Bt6DNPZpQ-yIkPUgv47F2W0' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=15Ij9kf9W4Bt6DNPZpQ-yIkPUgv47F2W0" -O DETR_checkpoint.pth&& rm -rf /tmp/cookies.txt
