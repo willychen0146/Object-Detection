@@ -57,4 +57,4 @@ python3 DETR_BBOX_img.py
 ```
 
 **The image will look just like this with both method:**
-![](.\yolov5\runs\IMG_2468.jpg)
+![](./demo.jpg)
